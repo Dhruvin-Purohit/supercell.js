@@ -19,7 +19,7 @@ tsconfig.json.test
 
 ## Continue
 tslint.json
-dist
+src
 test/
 
 ### I plan to add docs
