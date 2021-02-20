@@ -9,5 +9,9 @@ export default class Client extends EventEmitter {
         super();
         this.BSClient = new BSClient(BSClientOptions)
     }
-    public BSClient: any
+    public BSClient: BSClient
+}
+
+export default interface Client extends EventEmitter {
+    BSClient: BSClient
 }

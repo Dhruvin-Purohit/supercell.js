@@ -4,7 +4,7 @@ import Player from './struct/Player';
 import Club from './struct/Club';
 import Brawler from './struct/Brawler';
 import PlayerBattleLog from './struct/PlayerBattleLog';
-
+import { AxiosResponse } from 'axios'
 export default class Client extends BaseClient {
 	public constructor(options: ClientOptions) {
 		let baseOptions = {
@@ -92,4 +92,11 @@ export default class Client extends BaseClient {
 			};
 		}
 	}
+}
+
+export default interface Client extends BaseClient {
+	getPlayer(tag: string): Promise<{data: Player|undefined;res: AxiosResponse<any>;}>
+	getClub(tag: string): Promise<{data: Club|undefined;res: AxiosResponse<any>;}>
+	getPlayerBattleLog(tag: string): Promise<{data: PlayerBattleLog[]|undefined;res: AxiosResponse<any>;}>
+	getBrawlers(): Promise<{data: Brawler[]|undefined;res: AxiosResponse<any>;}>
 }

@@ -27,3 +27,10 @@ export default class Client extends EventEmitter {
 		return this._api;
 	}
 }
+
+export default interface Client extends EventEmitter {
+	url: string,
+	token: string,
+	_api?: AxiosInstance,
+	api: AxiosInstance
+}
