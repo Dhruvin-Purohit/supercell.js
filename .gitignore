@@ -1,0 +1,6 @@
+# Things not be sent on GitHub
+node_modules
+dist
+.git
+.vscode
+test

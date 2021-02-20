@@ -1,0 +1,40 @@
+{
+	"name": "supercell.js",
+	"version": "0.0.1",
+	"description": "An all in one package for supercell game's api management.",
+	"main": "src/index.js",
+	"types": "src/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dhruvin-purohit/supercell.js.git"
+	},
+	"keywords": [
+		"supercell",
+		"clash-of-clans",
+		"clash-royale",
+		"brawl-stars",
+		"api",
+		"supercell-api",
+		"brawl-stars-api",
+		"clash-of-clans-api",
+		"clash-royale-api"
+	],
+	"author": "Dhruvin Purohit",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dhruvin-purohit/supercell.js/issues"
+	},
+	"homepage": "https://github.com/dhruvin-purohit/supercell.js#readme",
+	"dependencies": {
+		"axios": "^0.21.1"
+	},
+	"devDependencies": {
+		"@types/node": "^14.14.28",
+		"tslib": "^2.1.0",
+		"typescript": "^4.1.5"
+	},
+	"prepublish": "tsc"
+}
