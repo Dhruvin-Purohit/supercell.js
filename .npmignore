@@ -13,7 +13,11 @@ node_modules
 
 ## Other
 tsconfig.json
+
+## trying to test what was wrong with old tsconfig.json
 tsconfig.json.test
+
+## Continue
 tslint.json
 dist
 test/
