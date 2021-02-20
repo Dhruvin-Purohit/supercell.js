@@ -13,6 +13,7 @@ node_modules
 
 ## Other
 tsconfig.json
+tsconfig.json.test
 tslint.json
 dist
 test/
