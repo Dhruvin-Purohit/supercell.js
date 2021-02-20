@@ -3,4 +3,9 @@ node_modules
 dist
 .git
 .vscode
+
+# I want to see why the fnck did it not work
+tsconfig.json.test
+
 test
+lib
