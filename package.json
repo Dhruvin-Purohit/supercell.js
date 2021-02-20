@@ -1,6 +1,6 @@
 {
   "name": "supercell.js",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "An all in one package for supercell game's api management.",
   "main": "lib/index.js",
   "types": "lib",

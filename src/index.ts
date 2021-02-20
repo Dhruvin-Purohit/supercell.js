@@ -1,4 +1,1 @@
-import Client from './base/Client';
-export default {
-    Client: Client
-}
+export * as Client from './base/Client'
