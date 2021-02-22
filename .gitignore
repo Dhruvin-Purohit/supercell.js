@@ -8,4 +8,4 @@ dist
 tsconfig.json.test
 
 test
-lib
+dist
