@@ -1,6 +1,6 @@
 # Supercell.js
 
-An all in one package for supercell game's api management.
+An all-in-one package for supercell game's API management.
 
 # WARNING
 

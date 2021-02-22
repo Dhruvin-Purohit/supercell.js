@@ -1,7 +1,7 @@
 {
   "name": "supercell.js",
   "version": "0.0.3",
-  "description": "An all in one package for supercell game's api management.",
+  "description": "An all-in-one package for supercell game's API management.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
